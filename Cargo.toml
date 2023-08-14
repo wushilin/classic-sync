@@ -4,6 +4,7 @@ version = "0.4.3"
 edition = "2021"
 license = "Apache-2.0"
 description = "Provides ReentrantLock, Semaphore and CyclicBarrier using Classic Linux Mutex systems"
+repository = "https://github.com/wushilin/classic-sync.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
