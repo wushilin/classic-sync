@@ -3,6 +3,12 @@ The implementation is a wrapper around C binding of Rust.
 
 It is tested in Linux. All systems that has CC should work in theory, not tested on windows.
 
+Most importantly the benefits are:
+* They are all Sync
+* They are all Unpin
+* They are all Send
+* They do not need to be mutable to lock!
+
 # Semaphore
 
 ```rust
